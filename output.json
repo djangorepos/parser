@@ -1,0 +1,358 @@
+[
+  {
+    "number": "0",
+    "body": {
+      "parts": [
+        {
+          "type": "text",
+          "body": "The hyperbolic Corgi notebook may be found at"
+        },
+        {
+          "type": "text",
+          "body": "https://mit-c25.netlify.app/notebooks/1_hyperbolic_corgi."
+        },
+        {
+          "type": "text",
+          "body": "Compute the 2 × 2 Jacobian matrix for each of the following image transformations from that notebook:"
+        }
+      ],
+      "children": [
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(a)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{rotate}(\\theta): (x, y) \\to(cos(\\theta)x + sin(\\theta)y, -sin(\\theta)x + cos(\\theta)y)"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(b)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{hyperbolic}\\_rotate(\\theta): (x, y) \\to(cosh(\\theta)x + sinh(\\theta)y, sinh(\\theta)x + cosh(\\theta)y)"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(c)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{nonlin}\\_shear(\\theta): (x, y) \\to(x, y + \\thetax2)"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(d)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{warp}(\\theta): (x, y) \\torotate(\\theta p"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "number": "1",
+    "body": {
+      "parts": [
+        {
+          "type": "text",
+          "body": "space W)"
+        },
+        {
+          "type": "text",
+          "body": "."
+        },
+        {
+          "type": "text",
+          "body": "If f(x) = L[x] + y for a constant y ∈W, what is f ′(x) (in terms of L and/or y)?"
+        }
+      ],
+      "children": [
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(a)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{Suppose} that L[x] is a linear operation (for x in some vector space V , with outputs L[x] in some other vector"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(b)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{Give} the derivatives of f(A) = AT (transpose) and g(A) = 1 + tr A (trace) as special cases of the rule you"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "number": "2",
+    "body": {
+      "parts": [
+        {
+          "type": "text",
+          "body": "Jacobian matrix, or a gradient ∇f —as specified in each part"
+        },
+        {
+          "type": "text",
+          "body": "."
+        }
+      ],
+      "children": [
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "Calculate"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{derivatives} of each of the following functions in the requested forms-as a linear operator f ′(x)[dx], a"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(a)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{f}(x) = xT (A + diagm(x))2x, where the inputs x ∈Rn are vectors, the outputs are scalars, A = AT is a"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "constant"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{symmetric} n \\times n matrix ∈Rn\\timesn, and diagm(x) denotes the n \\times n diagonal matrix     x1 x2 ...    ."
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "Give"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{the} gradient ∇f, such that f ′(x)dx = (∇f)T dx."
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(b)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{f}(x) = (A + yxT )-1b, where the inputs x and outputs f(x) are n-component (column) vectors in Rn, y and"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "b"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{are} constant vectors ∈Rn, and A is a constant n \\times n matrix ∈Rn\\timesn."
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(i)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{Give} f ′(x) as a Jacobian matrix."
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(ii)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{If} you are given A-1, then you can compute (A + yxT )-1 and hence f(x) for any x in ∼n2 scalararithmetic operations (i.e., roughly proportional to n2, or in computer-science terms Θ(n2) “complexity”),"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "using"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{the} “Sherman-Morrison” formula (Google it). Explain how your Jacobian matrix can therefore 1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "number": "3",
+    "body": {
+      "parts": [
+        {
+          "type": "text",
+          "body": "V"
+        },
+        {
+          "type": "text",
+          "body": "."
+        },
+        {
+          "type": "text",
+          "body": "What is the dimension of this vector space?"
+        }
+      ],
+      "children": [
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(a)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{Argue} briefly that linear functions that map n \\times n matrices to n \\times n matrices themselves form a vector space"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(b)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{Argue} briefly that linear functions of n \\times n matrices of the form X \\toAX, where A is n \\times n, form a vector space. What is the dimension of this vector space?"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "(c)"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{Argue} briefly why it follows that there must be infinitely many linear functions ∈V that are not of the form"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "X"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\toAX. 2"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "MIT"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{OpenCourseWare}"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "https:"
+            },
+            {
+              "type": "text",
+              "body": "//ocw.mit.edu 18.S096 Matrix Calculus for Machine Learning and Beyond"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "Independent"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{Activities} Period (IAP) 2023￿￿"
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "text",
+              "body": "For"
+            },
+            {
+              "type": "LaTeX",
+              "body": "\\text{information} about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
